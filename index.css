@@ -1,0 +1,92 @@
+* {
+    font-family: 'Playfair Display', sans-serif;\
+
+}
+
+
+
+
+#Logo{
+    font-family: Playfair Display;
+    font-weight: 600;
+    color: #2f2b60;
+    font-size: 1.6rem;
+}
+
+.navbar-nav a{
+    color: #757488 !important;
+    font-weight: 600 !important;
+    font-size: 1.1rem;
+}
+
+.navbar-nav a:focus {
+    color: #2f2b60 !important;
+    font-weight: 1000;
+}
+
+#WebTitle, #WebSubtitle{
+     color: #2f2b60 !important;
+}
+
+
+/*
+
+#4b4599
+*/
+#contact-button{
+    background-color: whitesmoke;
+    color: #2f2b60;
+    font-weight: 600;
+    border: solid 2px #2f2b60;
+    font-size: 1.2rem;
+}
+
+#contact-button:focus{
+    background-color: #2f2b60;
+    color: whitesmoke;
+    border: solid 1px white;
+    font-size: 1.2rem;
+    font-weight: 800;
+}
+
+
+
+#exampleModalLabel{
+    color: #2f2b60 !important;
+    font-weight: 600;
+    font-size: 1.5rem;
+}
+
+#send-button{
+    background-color: #2f2b60 !important;
+    color: whitesmoke;
+}
+
+
+#submit-button{
+    background-color: #2f2b60 !important;
+    color: whitesmoke;
+}
+
+
+#exampleCheck1:checked{
+    background-color: #2f2b60 !important;
+    color: whitesmoke;
+}
+
+
+#footer{
+    background-color: #2f2b60 !important;
+    padding: 0;
+    margin: 0;
+      width: 100%;
+}
+
+
+
+#projects img {
+    width: 100%; 
+    height: 200px;
+    object-fit: cover; 
+    border-radius: 8px;
+}
