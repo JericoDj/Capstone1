@@ -25,14 +25,12 @@
 }
 
 #WebTitle, #WebSubtitle{
-     color: #2f2b60 !important;
+    
+    color: #2f2b60 !important;
+  
 }
 
 
-/*
-
-#4b4599
-*/
 #contact-button{
     background-color: whitesmoke;
     color: #2f2b60;
@@ -62,10 +60,18 @@
     color: whitesmoke;
 }
 
-
-#submit-button{
+#ok-button{
     background-color: #2f2b60 !important;
     color: whitesmoke;
+
+}
+
+
+#submit-button{
+    color: #2f2b60 !important;
+    background-color: whitesmoke;
+
+
 }
 
 
@@ -84,9 +90,120 @@
 
 
 
+
 #projects img {
     width: 100%; 
     height: 200px;
     object-fit: cover; 
     border-radius: 8px;
+
+}
+
+#profileIMG{
+    height: 300px;
+    width: 150px;
+}
+
+#projects h3{
+    padding: 0.5rem;
+}
+
+
+#projects{
+    background-color: #2f2b60 !important;
+    scroll-margin-top: 5rem;
+}
+
+#tools{
+    scroll-margin-top: 5rem;
+}
+
+#contact{
+    scroll-margin-top: 5rem;
+
+}
+
+#contact form{
+    background-color: #2f2b60 !important;
+    border-radius: 0.5rem;
+}
+
+#messagetext{
+    color: #2f2b60 !important;
+}
+
+
+#emailHelp{
+    color: ghostwhite;
+}
+
+
+#ecommerceAPI, #bookingAPI , #courseBookingAPP, #ecommerceAPP, #airlineMockup, #airlinePrototype, #shortcoureCapstone, #shortcoureCapstone, #shortcoureCapstone{
+    border: solid 2px white;
+    border-radius: 0.5rem;
+    padding: 0;
+    margin: ;
+}
+
+
+#landing hr{
+    height: 2px;
+    background-color: #2f2b60 !important;
+
+}
+
+
+#landing #socials{
+    height: 20px;
+}
+
+#WebTitle ~ .flex-row img {
+    height: 1.5rem;
+    width: 1.5rem;
+}
+
+
+.social-icon {
+    width: 2rem; /* Default size (for small screens) */
+}
+
+/* Medium screens (≥768px, Bootstrap md) */
+@media (min-width: 768px) {
+    .social-icon {
+        width: 3rem;
+    }
+    #profileIMG{
+    height: 400px;
+    width: 200px;
+    }
+
+    #WebTitle ~ .flex-row img {
+        height: 2rem;
+        width: 2rem;
+    }
+
+
+}
+
+/* Large screens (≥992px, Bootstrap lg) */
+@media (min-width: 992px) {
+    .social-icon {
+        width: 3rem;
+    }
+
+    #profileIMG{
+    height: 500px;
+    width: 250px;
+    }
+
+    #WebTitle ~ .flex-row img {
+        height: 2rem;
+        width: 2rem;
+    }
+}
+
+
+#frontend-container, #framework-container, #backend-container{
+    border: solid 2px #2f2b60 !important; ;
+    border-radius: 0.5rem;
 }
